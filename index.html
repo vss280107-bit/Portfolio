@@ -64,7 +64,6 @@
       -webkit-backdrop-filter: blur(20px);
     }
 
-    /* Logo */
     .nav-logo {
       font-family: 'Space Grotesk', sans-serif;
       font-size: 1rem;
@@ -76,7 +75,6 @@
     }
     .nav-logo .logo-dim { color: var(--dim); }
 
-    /* Desktop links — simple row, no pill wrapper */
     .nav-links {
       display: flex;
       align-items: center;
@@ -96,7 +94,6 @@
     .nav-links a:hover  { color: var(--white); background: rgba(255,255,255,0.06); }
     .nav-links a.active { color: var(--white); background: rgba(255,255,255,0.09); }
 
-    /* Right: hire button + hamburger */
     .nav-right {
       display: flex;
       align-items: center;
@@ -122,7 +119,6 @@
     }
     .nav-hire:hover { background: rgba(255,255,255,0.85); transform: translateY(-1px); }
 
-    /* Hamburger */
     .hamburger {
       display: none;
       flex-direction: column;
@@ -152,21 +148,15 @@
     .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
     .hamburger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
 
-    /* ── DRAWER (mobile) ── */
     .nav-drawer {
-      display: none; /* only shown on mobile via media query */
+      display: none;
     }
 
     @media(max-width:960px){
       #navbar { padding: 0 1.25rem; }
-
-      /* Hide desktop links */
       .nav-links { display: none; }
-
-      /* Show hamburger */
       .hamburger { display: flex; }
 
-      /* Drawer */
       .nav-drawer {
         display: flex;
         flex-direction: column;
@@ -349,13 +339,11 @@
     .exp-card{padding:2.5rem;border-bottom:1px solid var(--border);display:grid;grid-template-columns:220px 1fr;gap:3rem;align-items:start;background:var(--black);transition:background 0.2s}
     .exp-card:last-child{border-bottom:none}
     .exp-card:hover{background:var(--black2)}
-    .exp-l{}
     .exp-badge{display:inline-flex;align-items:center;gap:0.5rem;font-family:var(--mono);font-size:0.6rem;letter-spacing:0.12em;text-transform:uppercase;border:1px solid var(--border);padding:0.25rem 0.65rem;border-radius:3px;color:var(--dim);margin-bottom:0.75rem}
     .exp-badge.current{border-color:rgba(34,197,94,0.3);color:rgba(134,239,172,0.8);background:rgba(34,197,94,0.05)}
     .exp-badge-dot{width:5px;height:5px;border-radius:50%;background:#22c55e;flex-shrink:0}
     .exp-period{font-family:var(--mono);font-size:0.62rem;letter-spacing:0.1em;color:var(--dim);margin-bottom:0.3rem}
     .exp-co{font-size:0.82rem;font-weight:600;color:var(--off)}
-    .exp-r{}
     .exp-title{font-family:'Space Grotesk',sans-serif;font-size:1.15rem;font-weight:700;letter-spacing:-0.02em;color:var(--white);margin-bottom:0.75rem}
     .exp-desc{font-size:0.87rem;line-height:1.75;color:var(--muted);margin-bottom:1rem}
     .exp-desc ul{padding-left:1.1rem;list-style:disc;display:flex;flex-direction:column;gap:0.35rem}
@@ -496,7 +484,7 @@
       <p class="hero-role-line"><span id="typed-text"></span><span class="cursor-blink"></span></p>
     </div>
     <div class="hero-bottom">
-      <p class="hero-desc">B.Tech CSE at <strong>SRM Institute of Science and Technology</strong>, Ghaziabad. Building full-stack applications, AI tools, and shipping products that solve real problems.</p>
+      <p class="hero-desc">B.Tech CSE at <strong>SRM Institute of Science and Technology</strong>, Ghaziabad. Frontend Developer Intern at <strong>Zenia Mobile</strong>. Building full-stack applications, AI tools, and shipping products that solve real problems.</p>
       <div class="hero-right-block">
         <div class="hero-ctas">
           <a href="#projects" class="btn btn-white"><i class="fas fa-eye"></i> View Work</a>
@@ -517,8 +505,8 @@
 <!-- TICKER -->
 <div class="ticker">
   <div class="ticker-track">
-    <div class="ticker-item">React.js</div><div class="ticker-item">Node.js</div><div class="ticker-item">PostgreSQL</div><div class="ticker-item">Python</div><div class="ticker-item">FastAPI</div><div class="ticker-item">JavaScript</div><div class="ticker-item">Tailwind CSS</div><div class="ticker-item">AI &amp; ML</div><div class="ticker-item">DSA · 150+ Problems</div><div class="ticker-item">CGPA 9.7</div><div class="ticker-item">Full-Stack Dev</div><div class="ticker-item">Open Source</div>
-    <div class="ticker-item">React.js</div><div class="ticker-item">Node.js</div><div class="ticker-item">PostgreSQL</div><div class="ticker-item">Python</div><div class="ticker-item">FastAPI</div><div class="ticker-item">JavaScript</div><div class="ticker-item">Tailwind CSS</div><div class="ticker-item">AI &amp; ML</div><div class="ticker-item">DSA · 150+ Problems</div><div class="ticker-item">CGPA 9.7</div><div class="ticker-item">Full-Stack Dev</div><div class="ticker-item">Open Source</div>
+    <div class="ticker-item">React.js</div><div class="ticker-item">Next.js</div><div class="ticker-item">Node.js</div><div class="ticker-item">PostgreSQL</div><div class="ticker-item">Python</div><div class="ticker-item">FastAPI</div><div class="ticker-item">JavaScript</div><div class="ticker-item">Tailwind CSS</div><div class="ticker-item">AI &amp; ML</div><div class="ticker-item">DSA · 150+ Problems</div><div class="ticker-item">CGPA 9.7</div><div class="ticker-item">Full-Stack Dev</div><div class="ticker-item">Open Source</div>
+    <div class="ticker-item">React.js</div><div class="ticker-item">Next.js</div><div class="ticker-item">Node.js</div><div class="ticker-item">PostgreSQL</div><div class="ticker-item">Python</div><div class="ticker-item">FastAPI</div><div class="ticker-item">JavaScript</div><div class="ticker-item">Tailwind CSS</div><div class="ticker-item">AI &amp; ML</div><div class="ticker-item">DSA · 150+ Problems</div><div class="ticker-item">CGPA 9.7</div><div class="ticker-item">Full-Stack Dev</div><div class="ticker-item">Open Source</div>
   </div>
 </div>
 
@@ -527,7 +515,7 @@
   <div class="stats-row">
     <div class="stat-cell reveal"><div class="stat-n" data-target="12">0</div><div class="stat-l">Projects Shipped</div></div>
     <div class="stat-cell reveal d1"><div class="stat-n" data-target="150">0</div><div class="stat-l">DSA Problems Solved</div></div>
-    <div class="stat-cell reveal d2"><div class="stat-n" data-target="8">0</div><div class="stat-l">Certifications</div></div>
+    <div class="stat-cell reveal d2"><div class="stat-n" data-target="10">0</div><div class="stat-l">Certifications</div></div>
     <div class="stat-cell reveal d3"><div class="stat-n" style="font-size:2.8rem">9.7</div><div class="stat-l">CGPA / 10</div></div>
   </div>
 </div>
@@ -540,14 +528,15 @@
     <div class="about-grid">
       <div class="reveal">
         <p class="about-lead">Computer Science undergraduate passionate about full-stack engineering and AI/ML.</p>
-        <p class="about-p">I'm a B.Tech CSE student at SRM-IST with a strong academic record (<strong>CGPA: 9.7/10</strong>) and hands-on experience building real-world applications. I specialize in React.js, Node.js, FastAPI, and PostgreSQL.</p>
+        <p class="about-p">I'm a B.Tech CSE student at SRM-IST with a strong academic record (<strong>CGPA: 9.7/10</strong>) and hands-on experience building real-world applications. I specialize in React.js, Next.js, Node.js, FastAPI, and PostgreSQL.</p>
         <p class="about-p">From building a <strong>Prompt Version Control System</strong> to AI-powered face recognition and full e-commerce platforms — I ship projects that solve real problems and push my skills forward every day.</p>
-        <p class="about-p">Currently working as a web development intern at <strong>Prodigy InfoTech</strong> and <strong>Pratinik InfoTech</strong>, while actively seeking full-time internship and freelance opportunities.</p>
+        <p class="about-p">Currently working as a paid Frontend Developer Intern at <strong>Zenia Mobile</strong>, building production React and Next.js interfaces. I've also completed web development internships at <strong>Prodigy InfoTech</strong> and <strong>Pratinik InfoTech</strong>, and I'm open to full-time internship and freelance opportunities.</p>
         <div style="margin-top:1.75rem"><a href="#contact" class="btn btn-white">Let's Talk <i class="fas fa-arrow-right"></i></a></div>
       </div>
       <div class="reveal d1">
         <div class="info-block">
           <div class="info-row"><span class="info-k">Status</span><span class="info-v">Open to opportunities</span></div>
+          <div class="info-row"><span class="info-k">Current</span><span class="info-v">Frontend Intern, Zenia Mobile</span></div>
           <div class="info-row"><span class="info-k">Education</span><span class="info-v">B.Tech CSE, SRM-IST</span></div>
           <div class="info-row"><span class="info-k">CGPA</span><span class="info-v">9.7 / 10.0</span></div>
           <div class="info-row"><span class="info-k">Year</span><span class="info-v">2nd Year (2024 – 2028)</span></div>
@@ -560,8 +549,8 @@
           <div class="ah-label"><strong>DSA Problems Solved</strong>On LeetCode &amp; competitive platforms. Consistent practice in algorithms and data structures.</div>
         </div>
         <div class="about-highlight" style="margin-top:0.75rem">
-          <div class="ah-num">2</div>
-          <div class="ah-label"><strong>Active Internships</strong>Currently working at Prodigy InfoTech &amp; Pratinik InfoTech simultaneously.</div>
+          <div class="ah-num">4</div>
+          <div class="ah-label"><strong>Internships</strong>Currently at Zenia Mobile. Completed Prodigy InfoTech, Pratinik InfoTech &amp; InAmigos Foundation.</div>
         </div>
       </div>
     </div>
@@ -584,8 +573,9 @@
       <div class="sk-card reveal"><div class="sk-top"><span class="sk-ico"></span><span class="sk-pct">95%</span></div><div class="sk-name">HTML5</div><div class="sk-bar-bg"><div class="sk-bar" data-width="95"></div></div></div>
       <div class="sk-card reveal d1"><div class="sk-top"><span class="sk-ico"></span><span class="sk-pct">90%</span></div><div class="sk-name">CSS3</div><div class="sk-bar-bg"><div class="sk-bar" data-width="90"></div></div></div>
       <div class="sk-card reveal d2"><div class="sk-top"><span class="sk-ico"></span><span class="sk-pct">85%</span></div><div class="sk-name">JavaScript</div><div class="sk-bar-bg"><div class="sk-bar" data-width="85"></div></div></div>
-      <div class="sk-card reveal d3"><div class="sk-top"><span class="sk-ico"></span><span class="sk-pct">78%</span></div><div class="sk-name">React.js</div><div class="sk-bar-bg"><div class="sk-bar" data-width="78"></div></div></div>
-      <div class="sk-card reveal d4"><div class="sk-top"><span class="sk-ico"></span><span class="sk-pct">80%</span></div><div class="sk-name">Tailwind CSS</div><div class="sk-bar-bg"><div class="sk-bar" data-width="80"></div></div></div>
+      <div class="sk-card reveal d3"><div class="sk-top"><span class="sk-ico"></span><span class="sk-pct">80%</span></div><div class="sk-name">React.js</div><div class="sk-bar-bg"><div class="sk-bar" data-width="80"></div></div></div>
+      <div class="sk-card reveal d4"><div class="sk-top"><span class="sk-ico"></span><span class="sk-pct">72%</span></div><div class="sk-name">Next.js</div><div class="sk-bar-bg"><div class="sk-bar" data-width="72"></div></div></div>
+      <div class="sk-card reveal"><div class="sk-top"><span class="sk-ico"></span><span class="sk-pct">80%</span></div><div class="sk-name">Tailwind CSS</div><div class="sk-bar-bg"><div class="sk-bar" data-width="80"></div></div></div>
     </div>
     <div class="skill-panel" id="tab-backend">
       <div class="sk-card reveal"><div class="sk-top"><span class="sk-ico"></span><span class="sk-pct">72%</span></div><div class="sk-name">Node.js</div><div class="sk-bar-bg"><div class="sk-bar" data-width="72"></div></div></div>
@@ -682,33 +672,47 @@
       <div class="exp-card">
         <div class="exp-l">
           <div class="exp-badge current"><div class="exp-badge-dot"></div>Current</div>
-          <div class="exp-period">2026 – Present</div>
+          <div class="exp-period">Jul 2026 – Present</div>
+          <div class="exp-co">Zenia Mobile</div>
+        </div>
+        <div class="exp-r">
+          <h3 class="exp-title">Frontend Developer Intern (Paid)</h3>
+          <div class="exp-desc"><ul>
+            <li>Developing responsive, production-grade frontend interfaces using React.js and Next.js.</li>
+            <li>Collaborating with the product and design team to translate mobile-first UI requirements into performant components.</li>
+            <li>Contributing to component architecture and code review as part of an agile development workflow.</li>
+          </ul></div>
+          <div class="exp-tags"><span class="etag">React.js</span><span class="etag">Next.js</span><span class="etag">JavaScript</span><span class="etag">Agile</span><span class="etag">Git</span></div>
+        </div>
+      </div>
+      <div class="exp-card">
+        <div class="exp-l">
+          <div class="exp-badge">Completed</div>
+          <div class="exp-period">2026 – Jun 2026</div>
           <div class="exp-co">Prodigy InfoTech</div>
         </div>
         <div class="exp-r">
           <h3 class="exp-title">Web Development Intern</h3>
           <div class="exp-desc"><ul>
-            <li>Building and maintaining responsive web applications using React.js, HTML5, CSS3, and JavaScript.</li>
-            <li>Developing reusable UI components and integrating REST APIs for dynamic data rendering.</li>
-            <li>Collaborating with the dev team on feature delivery, code reviews, and debugging production issues.</li>
-            <li>Contributing to multiple client-facing projects across the full frontend stack.</li>
+            <li>Contributed to full-stack web development projects using React.js and Node.js.</li>
+            <li>Built and maintained REST APIs and responsive front-end interfaces.</li>
+            <li>Developed reusable UI components and integrated APIs for dynamic data rendering.</li>
           </ul></div>
-          <div class="exp-tags"><span class="etag">React.js</span><span class="etag">JavaScript</span><span class="etag">HTML/CSS</span><span class="etag">REST APIs</span><span class="etag">Git</span></div>
+          <div class="exp-tags"><span class="etag">React.js</span><span class="etag">Node.js</span><span class="etag">HTML/CSS</span><span class="etag">REST APIs</span><span class="etag">Git</span></div>
         </div>
       </div>
       <div class="exp-card">
         <div class="exp-l">
-          <div class="exp-badge current"><div class="exp-badge-dot"></div>Current</div>
-          <div class="exp-period">2026 – Present</div>
+          <div class="exp-badge">Completed</div>
+          <div class="exp-period">2026 – Jun 2026</div>
           <div class="exp-co">Pratinik InfoTech</div>
         </div>
         <div class="exp-r">
           <h3 class="exp-title">Web Development Intern</h3>
           <div class="exp-desc"><ul>
-            <li>Designing and implementing full-stack features for internal and client products using Node.js and React.</li>
-            <li>Working on database design, API development, and frontend integration with PostgreSQL &amp; Express.js.</li>
-            <li>Participating in agile sprints, daily standups, and technical planning sessions.</li>
-            <li>Delivering responsive, accessible UIs optimized for performance and user experience.</li>
+            <li>Developed web applications and collaborated on real-world client projects.</li>
+            <li>Applied HTML, CSS, JavaScript, and backend technologies across the development lifecycle.</li>
+            <li>Worked on database design, API development, and frontend integration with PostgreSQL &amp; Express.js.</li>
           </ul></div>
           <div class="exp-tags"><span class="etag">Node.js</span><span class="etag">Express.js</span><span class="etag">PostgreSQL</span><span class="etag">React</span><span class="etag">Agile</span></div>
         </div>
@@ -789,14 +793,12 @@
         <span class="edu-period">2023 – 2024</span>
         <div class="edu-deg">Class XII — Science (PCM + CS)</div>
         <div class="edu-inst">New Era School, Ghaziabad · CBSE</div>
-        <div class="edu-grade"><i class="fas fa-star" style="font-size:0.55rem"></i> 89%</div>
         <p class="edu-desc">Completed senior secondary with Physics, Chemistry, Mathematics, and Computer Science. Strong academic foundation.</p>
       </div>
       <div class="edu-card reveal d3">
         <span class="edu-period">Up to 2022</span>
         <div class="edu-deg">Class X — Secondary</div>
         <div class="edu-inst">New Era School, Ghaziabad · CBSE</div>
-        <div class="edu-grade"><i class="fas fa-star" style="font-size:0.55rem"></i> 88%</div>
         <p class="edu-desc">Completed secondary education with a strong focus on Mathematics and Science, laying the groundwork for a technical career.</p>
       </div>
     </div>
@@ -817,6 +819,8 @@
       <div class="cert-card reveal d1"><div class="cert-em"></div><div><div class="cert-name">React.js Fundamentals</div><div class="cert-issuer">Internshala Trainings</div><span class="cert-badge">✓ Verified</span></div></div>
       <div class="cert-card reveal d2"><div class="cert-em"></div><div><div class="cert-name">Hackathon Participant</div><div class="cert-issuer">SRM Hackathon 2024</div><span class="cert-badge">✓ Participation</span></div></div>
       <div class="cert-card reveal d3"><div class="cert-em"></div><div><div class="cert-name">Cybersecurity Essentials</div><div class="cert-issuer">Cisco Networking Academy</div><span class="cert-badge">✓ Verified</span></div></div>
+      <div class="cert-card reveal"><div class="cert-em"></div><div><div class="cert-name">Getting Started With Cybersecurity</div><div class="cert-issuer">IBM · Oct 2026</div><span class="cert-badge">✓ Verified</span></div></div>
+      <div class="cert-card reveal d1"><div class="cert-em"></div><div><div class="cert-name">Wireless Communication Standards Evolution</div><div class="cert-issuer">Ansys · Oct 2026</div><span class="cert-badge">✓ Verified</span></div></div>
     </div>
   </div>
 </section>
@@ -834,7 +838,7 @@
       <div class="ach-card reveal"><div class="ach-icon"><i class="fas fa-chalkboard-teacher"></i></div><div><div class="ach-text">Peer Learning Workshops</div><div class="ach-sub">Conducted technical workshops for fellow students</div></div></div>
       <div class="ach-card reveal d1"><div class="ach-icon"><i class="fas fa-heart"></i></div><div><div class="ach-text">Digital Literacy Volunteer</div><div class="ach-sub">Mentoring and digital literacy initiatives</div></div></div>
       <div class="ach-card reveal d2"><div class="ach-icon"><i class="fas fa-trophy"></i></div><div><div class="ach-text">Hackathon Participant</div><div class="ach-sub">SRM Hackathon 2024 &amp; coding competitions</div></div></div>
-      <div class="ach-card reveal d3"><div class="ach-icon"><i class="fas fa-laptop-code"></i></div><div><div class="ach-text">2 Simultaneous Internships</div><div class="ach-sub">Prodigy InfoTech &amp; Pratinik InfoTech concurrently</div></div></div>
+      <div class="ach-card reveal d3"><div class="ach-icon"><i class="fas fa-laptop-code"></i></div><div><div class="ach-text">Paid Frontend Internship</div><div class="ach-sub">Zenia Mobile — React.js &amp; Next.js</div></div></div>
     </div>
   </div>
 </section>
@@ -936,7 +940,7 @@
   }
 
   // Typewriter
-  const phrases = ['Full-Stack Developer','AI/ML Enthusiast','React · Node.js · Python','Open Source Contributor','Building things that ship 🚀'];
+  const phrases = ['Full-Stack Developer','Frontend Intern @ Zenia Mobile','React · Next.js · Node.js · Python','AI/ML Enthusiast','Building things that ship 🚀'];
   let pi = 0, ci = 0, del = false;
   const el = document.getElementById('typed-text');
   function type() {
